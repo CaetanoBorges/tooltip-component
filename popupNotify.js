@@ -65,6 +65,10 @@ class PopupNotify extends HTMLElement {
         if (this.getAttribute('tip_color')) {
             this.shadowRoot.querySelector('.notify-container').style.color = this.getAttribute('tip_color');
         }
+
+        if (true) {
+
+        }
     }
 
     connectedCallback() {
