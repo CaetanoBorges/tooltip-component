@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToolTip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Aqui muita coisa feita assim
+            <popup-notify tip_background="#ffcc00" tip_color="#ffaa99">
+                <span slot="sms"> A mensagem com slot</span>
+            </popup-notify> e depois do pop up
+        </p>
+        <p>Hey there
+            <popup-notify tip_background="#ffaa99" tip_color="#ffcc11">
+                <span slot="sms"> A mensagem com slot</span>
+            </popup-notify>, how are you?
+        </p>
+    </div>
+    <script src="popupNotify.js"></script>
+</body>
+
+</html>
